@@ -9,15 +9,15 @@
         <copyright>夏其文</copyright>
         <lastBuildDate>Tue, 04 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://xqwperfect.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title></title>
-        <link>https://xqwperfect.github.io/p/</link>
+        <link>https://xqwperfect.github.io/p/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
         <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://xqwperfect.github.io/p/</guid>
-        <description>&lt;img src="https://xqwperfect.github.io/p/helena-hertz-wWZzXlDpMog-unsplash.jpg" alt="Featured image of post " /&gt;&lt;h2 id=&#34;使用git上传代码&#34;&gt;使用git上传代码
+        <guid>https://xqwperfect.github.io/p/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+        <description>&lt;img src="https://xqwperfect.github.io/p/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/helena-hertz-wWZzXlDpMog-unsplash.jpg" alt="Featured image of post " /&gt;&lt;h2 id=&#34;使用git上传代码&#34;&gt;使用git上传代码
 &lt;/h2&gt;&lt;hr&gt;
 &lt;blockquote&gt;
-&lt;p&gt;git add . 添加文件到缓存命令
-git commit -m &amp;ldquo;update&amp;rdquo; git commit 将缓存区内容添加到仓库中，可以在后面加-m选项，以在命令行中提供提交注释
+&lt;p&gt;git add . 添加文件到缓存命令&lt;br&gt;
+git commit -m &amp;ldquo;update&amp;rdquo; git commit 将缓存区内容添加到仓库中，可以在后面加-m选项，以在命令行中提供提交注释&lt;br&gt;
 git push 推送你的新分支与数据到某个远端仓库命令&lt;/p&gt;&lt;/blockquote&gt;
 &lt;hr&gt;
 </description>
