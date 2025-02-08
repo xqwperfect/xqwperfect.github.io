@@ -691,20 +691,25 @@ git push 推送你的新分支与数据到某个远端仓库命令</p></blockquo
 <ul>
 <li>（4）在 <strong>public</strong> 执行以下命令上传到github仓库上，第一次上传可能需要输入账号密码</li>
 </ul>
-<table class="lntable"><tbody><tr><td class="lntd"><pre tabindex="0" class="chroma"><code><span class="lnt">1
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
 </span><span class="lnt">6
-</span></code></pre></td><td class="lntd"><pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl">git init
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl">git init
 </span></span><span class="line"><span class="cl">git add .
-</span></span><span class="line"><span class="cl">git commit -m <span class="s2">"first commit"</span>
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;first commit&#34;</span>
 </span></span><span class="line"><span class="cl">git branch -M main
 </span></span><span class="line"><span class="cl">git remote add origin {你的github仓库地址}
 </span></span><span class="line"><span class="cl">git push -u origin main
-</span></span></code></pre></td></tr></tbody></table>
-<p>-（5）上传成功后访问 <strong>https://{github用户名}.github.io</strong>，成功搭建属于自己的Hugo博客</p>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>-（5）上传成功后访问 <strong>https://{github用户名}.github.io</strong>，成功搭建属于自己的Hugo博客</p>
 <hr>
 <h3 id="32-github-action自动部署">3.2 Github Action自动部署
 </h3><ul>
@@ -781,7 +786,9 @@ git push 推送你的新分支与数据到某个远端仓库命令</p></blockquo
 <li>（5）在hugo主文件创建一个<code>.github/workflows/xxxx.yaml</code>文件，将以下内容复制进去，想具体了解更多，可查看【<a class="link" href="https://docs.github.com/zh/actions"  target="_blank" rel="noopener"
     >Github Action文档</a>】</li>
 </ul>
-<table class="lntable"><tbody><tr><td class="lntd"><pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
 </span><span class="lnt"> 3
 </span><span class="lnt"> 4
@@ -815,7 +822,9 @@ git push 推送你的新分支与数据到某个远端仓库命令</p></blockquo
 </span><span class="lnt">32
 </span><span class="lnt">33
 </span><span class="lnt">34
-</span></code></pre></td><td class="lntd"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">deploy</span><span class="w">
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-.yaml" data-lang=".yaml"><span class="line"><span class="cl"><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">deploy</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># 代码提交到main分支时触发github action</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">on</span><span class="p">:</span><span class="w">
@@ -835,7 +844,7 @@ git push 推送你的新分支与数据到某个远端仓库命令</p></blockquo
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Setup Hugo</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">peaceiris/actions-hugo@v3</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">with</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">hugo-version</span><span class="p">:</span><span class="w"> </span><span class="s2">"latest"</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">hugo-version</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;latest&#34;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">extended</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Build Web</span><span class="w">
@@ -849,42 +858,53 @@ git push 推送你的新分支与数据到某个远端仓库命令</p></blockquo
 </span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">PUBLISH_BRANCH</span><span class="p">:</span><span class="w"> </span><span class="l">main</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">PUBLISH_DIR</span><span class="p">:</span><span class="w"> </span><span class="l">./public</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">commit_message</span><span class="p">:</span><span class="w"> </span><span class="l">auto deploy</span><span class="w">
-</span></span></span></code></pre></td></tr></tbody></table>
-<ul>
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
 <li>（6）在hugo主文件创建<code>.gitignore</code>文件，来避免提交不必要的文件</li>
 </ul>
-<table class="lntable"><tbody><tr><td class="lntd"><pre tabindex="0" class="chroma"><code><span class="lnt">1
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
 </span><span class="lnt">6
 </span><span class="lnt">7
-</span></code></pre></td><td class="lntd"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="c"># 自动生成的文件</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="l">public</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="l">resources</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="l">.hugo_build.lock</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># hugo命令</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="l">hugo.exe</span><span class="w">
-</span></span></span></code></pre></td></tr></tbody></table>
-<ul>
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># 自动生成的文件
+</span></span><span class="line"><span class="cl">public
+</span></span><span class="line"><span class="cl">resources
+</span></span><span class="line"><span class="cl">.hugo_build.lock
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"># hugo命令
+</span></span><span class="line"><span class="cl">hugo.exe
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
 <li>（7）将hugo的主文件上传到仓库，上传成功后会触发Github Action，来自动部署你的静态页面</li>
 </ul>
-<table class="lntable"><tbody><tr><td class="lntd"><pre tabindex="0" class="chroma"><code><span class="lnt">1
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
 </span><span class="lnt">5
 </span><span class="lnt">6
-</span></code></pre></td><td class="lntd"><pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl">git init
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cmd" data-lang="cmd"><span class="line"><span class="cl">git init
 </span></span><span class="line"><span class="cl">git add .
-</span></span><span class="line"><span class="cl">git commit -m <span class="s2">"first commit"</span>
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;first commit&#34;</span>
 </span></span><span class="line"><span class="cl">git branch -M main
 </span></span><span class="line"><span class="cl">git remote add origin {你的github仓库地址}
 </span></span><span class="line"><span class="cl">git push -u origin main
-</span></span></code></pre></td></tr></tbody></table>
-<p><img src="/p/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/image-21.png"
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><img src="/p/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/image-21.png"
 	width="702"
 	height="183"
 	srcset="/p/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/image-21_hu_122cee667f24c9b7.png 480w, /p/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/image-21_hu_6c5095d0ea453390.png 1024w"
