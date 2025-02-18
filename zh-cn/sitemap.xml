@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://xqwperfect.github.io/</loc>
-    <lastmod>2025-02-15T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-04T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -14,9 +14,6 @@
                 hreflang="zh-cn"
                 href="https://xqwperfect.github.io/"
                 />
-  </url><url>
-    <loc>https://xqwperfect.github.io/post/</loc>
-    <lastmod>2025-02-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xqwperfect.github.io/categories/</loc>
     <lastmod>2025-02-04T00:00:00+00:00</lastmod>
@@ -30,6 +27,9 @@
                 hreflang="zh-cn"
                 href="https://xqwperfect.github.io/categories/"
                 />
+  </url><url>
+    <loc>https://xqwperfect.github.io/post/</loc>
+    <lastmod>2025-02-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xqwperfect.github.io/categories/%E8%AE%B0%E5%BD%95/</loc>
     <lastmod>2025-02-04T00:00:00+00:00</lastmod>
