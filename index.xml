@@ -56,7 +56,7 @@
 		data-flex-basis=&#34;481px&#34;
 	
 &gt;
-复制里面的[代码](if [ -f /usr/bin/curl ];then curl -sSO &lt;a class=&#34;link&#34; href=&#34;https://download.bt.cn/install/install_panel.sh;else&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+复制里面的![代码](if [ -f /usr/bin/curl ];then curl -sSO &lt;a class=&#34;link&#34; href=&#34;https://download.bt.cn/install/install_panel.sh;else&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://download.bt.cn/install/install_panel.sh;else&lt;/a&gt; wget -O install_panel.sh &lt;a class=&#34;link&#34; href=&#34;https://download.bt.cn/install/install_panel.sh;fi;bash&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://download.bt.cn/install/install_panel.sh;fi;bash&lt;/a&gt; install_panel.sh ed8484bec)进行安装。
 &lt;img src=&#34;https://xqwperfect.github.io/p/%E9%98%BF%E9%87%8C%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/image-3.png&#34;
@@ -73,9 +73,9 @@
 &gt;&lt;/p&gt;
 &lt;p&gt;最后会给出一个ip访问地址和账号密码：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;外网面板地址: https://8.133.251.43:40241/fbe2664c
-内网面板地址: https://172.30.184.189:40241/fbe2664c
-username: r7ov1few
+&lt;p&gt;外网面板地址: https://8.133.251.43:40241/fbe2664c&lt;br&gt;
+内网面板地址: https://172.30.184.189:40241/fbe2664c&lt;br&gt;
+username: r7ov1few&lt;br&gt;
 password: a0c4c070&lt;/p&gt;&lt;/blockquote&gt;
 </description>
         </item>
