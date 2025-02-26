@@ -43,7 +43,9 @@
 可以使用阿里云自带的远程连接进行SSH工作。&lt;/p&gt;
 &lt;p&gt;我在这个服务器中安装了一个宝塔面板。&lt;/p&gt;
 &lt;h2 id=&#34;安装教程&#34;&gt;安装教程
-&lt;/h2&gt;&lt;p&gt;进入服务器后台终端，输入命令。&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bt.cn/new/download.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;宝塔面板&lt;/a&gt;
+进入服务器后台终端，输入命令。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://xqwperfect.github.io/p/%E9%98%BF%E9%87%8C%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/image-2.png&#34;
 	width=&#34;1913&#34;
 	height=&#34;953&#34;
@@ -56,9 +58,11 @@
 		data-flex-basis=&#34;481px&#34;
 	
 &gt;
-复制里面的![代码](if [ -f /usr/bin/curl ];then curl -sSO &lt;a class=&#34;link&#34; href=&#34;https://download.bt.cn/install/install_panel.sh;else&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://download.bt.cn/install/install_panel.sh;else&lt;/a&gt; wget -O install_panel.sh &lt;a class=&#34;link&#34; href=&#34;https://download.bt.cn/install/install_panel.sh;fi;bash&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://download.bt.cn/install/install_panel.sh;fi;bash&lt;/a&gt; install_panel.sh ed8484bec)进行安装。
+复制里面的代码&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;wget -O install_panel.sh &lt;a class=&#34;link&#34; href=&#34;https://download.bt.cn/install/install_panel.sh&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://download.bt.cn/install/install_panel.sh&lt;/a&gt; &amp;amp;&amp;amp; sudo bash install_panel.sh ed8484bec&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;进行安装。
 &lt;img src=&#34;https://xqwperfect.github.io/p/%E9%98%BF%E9%87%8C%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/image-3.png&#34;
 	width=&#34;1845&#34;
 	height=&#34;962&#34;
